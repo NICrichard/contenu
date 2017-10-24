@@ -1,0 +1,29 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.vl-image {
+	text-align: center;
+}
+
+.vl-image a {
+	display: inline-block;
+}
+
+.content-layout h3.hl-heading {
+	margin-top: 0px;
+	display: inline;
+}
+
+.content-layout h3.vl-heading {
+	display: inline;
+}
+
+.content-layout .vl-image {
+	margin-bottom: 15px;
+}
+
+.content-layout {
+	margin-bottom: 15px;
+}

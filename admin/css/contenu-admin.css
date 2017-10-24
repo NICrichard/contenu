@@ -1,0 +1,114 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+#contenu-columns-wrap {
+	margin: 0px -8px;
+}
+
+.contenu-wrap .row {
+	width: 100%;
+	overflow: hidden;
+  zoom: 1;
+}
+
+.type-column,
+.field-column {
+	width: 30%;
+	box-sizing: border-box;
+	padding: 8px;
+	display: block;
+	vertical-align: top;
+	float: left;
+	overflow: hidden;
+  zoom: 1;
+}
+
+.field-column {
+	width: 70%;
+}
+
+.type-option-column {
+	width: 49%;
+	padding: 0px 8px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+#contenu-columns-wrap .submitdelete {
+	color: #a00;
+	line-height: 26px;
+	float: right;
+	padding: 0px 10px;
+	cursor: pointer;
+}
+
+#contenu-columns-wrap .submitdelete:hover {
+	color: #f00;
+}
+
+#contenu-columns-wrap form .field-wrap label {
+	margin: 2px;
+}
+
+#contenu-columns-wrap form .field-wrap input[type="text"],
+#contenu-columns-wrap form .field-wrap input[type="number"],
+#contenu-columns-wrap form .field-wrap textarea,
+#contenu-columns-wrap form .field-wrap select {
+	width: 100%;
+	padding: 4px 6px;
+	outline: none;
+	margin: 1px;
+}
+
+#contenu-columns-wrap form .field-wrap input[type="checkbox"] {
+
+}
+
+#contenu-columns-wrap form .field-wrap {
+	margin-top: 12px;
+}
+
+#contenu-columns-wrap p.submit {
+	padding: 0px;
+	margin: 0px;
+	margin-top: 12px;
+}
+
+#contenu-columns-wrap p.submit .button {
+	margin-right: 8px;
+}
+
+#contenu-columns-wrap .add-option {
+	border-top: 1px solid #e9e9e9;
+	margin-top: 4px;
+	padding-top: 12px;
+}
+
+#contenu-columns-wrap .options-group {
+	display: table;
+	width: 100%;
+}
+
+#contenu-columns-wrap .options-row {
+	display: table-row;
+}
+
+#contenu-columns-wrap .options-name, .options-remove {
+	display: table-cell;
+	padding-bottom: 8px;
+}
+
+#contenu-columns-wrap .options-name {
+	width: 70%;
+}
+
+#contenu-columns-wrap .options-remove {
+	vertical-align: top;
+	padding-left: 8px;
+}
+
+#contenu-columns-wrap .options-remove button {
+	margin-top: 1px;
+}
